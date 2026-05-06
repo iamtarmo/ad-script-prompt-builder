@@ -1,0 +1,902 @@
+[
+  {
+    "id": "hook-001",
+    "title": "Story hook 1",
+    "rawTemplate": "The real story of how I started ___",
+    "category": "Story",
+    "pattern": "personal story",
+    "emotionalTrigger": "identification",
+    "bestUseCase": "When the offer needs trust and human context"
+  },
+  {
+    "id": "hook-002",
+    "title": "Curiosity hook 2",
+    "rawTemplate": "One thing I'll never do again in ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-003",
+    "title": "Curiosity hook 3",
+    "rawTemplate": "What failing at ___ taught me",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-004",
+    "title": "Contrarian hook 4",
+    "rawTemplate": "Nobody really talks about this part of ___",
+    "category": "Contrarian",
+    "pattern": "unexpected truth",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the market has a stale or incomplete belief"
+  },
+  {
+    "id": "hook-005",
+    "title": "Curiosity hook 5",
+    "rawTemplate": "I found this out by accident while doing ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-006",
+    "title": "Story hook 6",
+    "rawTemplate": "What I'd do differently if I started ___ today",
+    "category": "Story",
+    "pattern": "personal story",
+    "emotionalTrigger": "identification",
+    "bestUseCase": "When the offer needs trust and human context"
+  },
+  {
+    "id": "hook-007",
+    "title": "Curiosity hook 7",
+    "rawTemplate": "The easiest way to begin ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-008",
+    "title": "Curiosity hook 8",
+    "rawTemplate": "How I finally stayed consistent with ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-009",
+    "title": "Mechanism hook 9",
+    "rawTemplate": "Why your ___ isn't working and how to fix it",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-010",
+    "title": "Curiosity hook 10",
+    "rawTemplate": "I wish I did this sooner with ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-011",
+    "title": "Curiosity hook 11",
+    "rawTemplate": "The simplest thing that helped me grow in ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-012",
+    "title": "Curiosity hook 12",
+    "rawTemplate": "The worst advice I ever got about ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-013",
+    "title": "Curiosity hook 13",
+    "rawTemplate": "One mindset change that flipped everything in ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-014",
+    "title": "Curiosity hook 14",
+    "rawTemplate": "You don't need to be perfect to start ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-015",
+    "title": "Curiosity hook 15",
+    "rawTemplate": "A lazy but effective way to improve at ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-016",
+    "title": "Proof hook 16",
+    "rawTemplate": "I tested ___ so you don't have to",
+    "category": "Proof",
+    "pattern": "tested-for-you",
+    "emotionalTrigger": "relief",
+    "bestUseCase": "When the ad can borrow credibility from testing or experience"
+  },
+  {
+    "id": "hook-017",
+    "title": "Contrarian hook 17",
+    "rawTemplate": "What nobody warns you about with ___",
+    "category": "Contrarian",
+    "pattern": "unexpected truth",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the market has a stale or incomplete belief"
+  },
+  {
+    "id": "hook-018",
+    "title": "Curiosity hook 18",
+    "rawTemplate": "The fastest way I improved at ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-019",
+    "title": "Curiosity hook 19",
+    "rawTemplate": "I didn't expect this to work but it did ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-020",
+    "title": "Curiosity hook 20",
+    "rawTemplate": "This one thing changed everything for me in ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-021",
+    "title": "Mechanism hook 21",
+    "rawTemplate": "Why ___ works when nothing else does",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-022",
+    "title": "Warning hook 22",
+    "rawTemplate": "Watch this before you try ___",
+    "category": "Warning",
+    "pattern": "before you try",
+    "emotionalTrigger": "loss avoidance",
+    "bestUseCase": "When prospects are about to take the wrong next step"
+  },
+  {
+    "id": "hook-023",
+    "title": "Mechanism hook 23",
+    "rawTemplate": "Why does no one mention this about ___",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-024",
+    "title": "Mistake hook 24",
+    "rawTemplate": "Don't make this mistake with ___",
+    "category": "Mistake",
+    "pattern": "mistake reveal",
+    "emotionalTrigger": "fear of wasting effort",
+    "bestUseCase": "When the audience is doing the common thing wrong"
+  },
+  {
+    "id": "hook-025",
+    "title": "Curiosity hook 25",
+    "rawTemplate": "You've probably never seen ___ done like this",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-026",
+    "title": "Curiosity hook 26",
+    "rawTemplate": "Stop wasting time doing ___ this way",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-027",
+    "title": "Curiosity hook 27",
+    "rawTemplate": "What happened after I tried ___ for 30 days",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-028",
+    "title": "Curiosity hook 28",
+    "rawTemplate": "Want to save money on ___ Try this",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-029",
+    "title": "Story hook 29",
+    "rawTemplate": "I wish someone told me this before I started ___",
+    "category": "Story",
+    "pattern": "personal story",
+    "emotionalTrigger": "identification",
+    "bestUseCase": "When the offer needs trust and human context"
+  },
+  {
+    "id": "hook-030",
+    "title": "Mistake hook 30",
+    "rawTemplate": "Three mistakes keeping you stuck in ___",
+    "category": "Mistake",
+    "pattern": "mistake reveal",
+    "emotionalTrigger": "fear of wasting effort",
+    "bestUseCase": "When the audience is doing the common thing wrong"
+  },
+  {
+    "id": "hook-031",
+    "title": "Curiosity hook 31",
+    "rawTemplate": "How I turned a failure in ___ into progress",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-032",
+    "title": "Curiosity hook 32",
+    "rawTemplate": "The difference between beginners and experts in ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-033",
+    "title": "Proof hook 33",
+    "rawTemplate": "I spent money on ___ so you don't have to",
+    "category": "Proof",
+    "pattern": "tested-for-you",
+    "emotionalTrigger": "relief",
+    "bestUseCase": "When the ad can borrow credibility from testing or experience"
+  },
+  {
+    "id": "hook-034",
+    "title": "Story hook 34",
+    "rawTemplate": "What my first year of ___ taught me",
+    "category": "Story",
+    "pattern": "personal story",
+    "emotionalTrigger": "identification",
+    "bestUseCase": "When the offer needs trust and human context"
+  },
+  {
+    "id": "hook-035",
+    "title": "Contrarian hook 35",
+    "rawTemplate": "Nobody prepares you for this part of ___",
+    "category": "Contrarian",
+    "pattern": "unexpected truth",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the market has a stale or incomplete belief"
+  },
+  {
+    "id": "hook-036",
+    "title": "Contrarian hook 36",
+    "rawTemplate": "The truth behind overnight success in ___",
+    "category": "Contrarian",
+    "pattern": "unexpected truth",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the market has a stale or incomplete belief"
+  },
+  {
+    "id": "hook-037",
+    "title": "Warning hook 37",
+    "rawTemplate": "What I'd tell myself before starting ___",
+    "category": "Warning",
+    "pattern": "before you try",
+    "emotionalTrigger": "loss avoidance",
+    "bestUseCase": "When prospects are about to take the wrong next step"
+  },
+  {
+    "id": "hook-038",
+    "title": "Curiosity hook 38",
+    "rawTemplate": "How I stopped being scared to fail at ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-039",
+    "title": "Curiosity hook 39",
+    "rawTemplate": "The unexpected upside of doing ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-040",
+    "title": "Curiosity hook 40",
+    "rawTemplate": "What happens when you stop overthinking ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-041",
+    "title": "Story hook 41",
+    "rawTemplate": "How I got my first real win in ___",
+    "category": "Story",
+    "pattern": "personal story",
+    "emotionalTrigger": "identification",
+    "bestUseCase": "When the offer needs trust and human context"
+  },
+  {
+    "id": "hook-042",
+    "title": "Curiosity hook 42",
+    "rawTemplate": "One small habit that made a big difference in ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-043",
+    "title": "Mechanism hook 43",
+    "rawTemplate": "Why people quit ___ too early",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-044",
+    "title": "Curiosity hook 44",
+    "rawTemplate": "How to stay motivated when ___ feels hard",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-045",
+    "title": "Mechanism hook 45",
+    "rawTemplate": "Why most people never succeed at ___",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-046",
+    "title": "Curiosity hook 46",
+    "rawTemplate": "The easiest way to stay consistent with ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-047",
+    "title": "Contrarian hook 47",
+    "rawTemplate": "The honest truth about ___ no one likes",
+    "category": "Contrarian",
+    "pattern": "unexpected truth",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the market has a stale or incomplete belief"
+  },
+  {
+    "id": "hook-048",
+    "title": "Curiosity hook 48",
+    "rawTemplate": "How I stopped overcomplicating ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-049",
+    "title": "Curiosity hook 49",
+    "rawTemplate": "The biggest myth about ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-050",
+    "title": "Curiosity hook 50",
+    "rawTemplate": "The system I use every time for ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-051",
+    "title": "Mistake hook 51",
+    "rawTemplate": "You're probably doing ___ wrong",
+    "category": "Mistake",
+    "pattern": "mistake reveal",
+    "emotionalTrigger": "fear of wasting effort",
+    "bestUseCase": "When the audience is doing the common thing wrong"
+  },
+  {
+    "id": "hook-052",
+    "title": "Curiosity hook 52",
+    "rawTemplate": "How I simplified my whole process for ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-053",
+    "title": "Story hook 53",
+    "rawTemplate": "The real story behind my ___ journey",
+    "category": "Story",
+    "pattern": "personal story",
+    "emotionalTrigger": "identification",
+    "bestUseCase": "When the offer needs trust and human context"
+  },
+  {
+    "id": "hook-054",
+    "title": "Story hook 54",
+    "rawTemplate": "I wish someone said this when I started ___",
+    "category": "Story",
+    "pattern": "personal story",
+    "emotionalTrigger": "identification",
+    "bestUseCase": "When the offer needs trust and human context"
+  },
+  {
+    "id": "hook-055",
+    "title": "Curiosity hook 55",
+    "rawTemplate": "The most underrated tool I use for ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-056",
+    "title": "Curiosity hook 56",
+    "rawTemplate": "How to get better results in ___ without burnout",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-057",
+    "title": "Curiosity hook 57",
+    "rawTemplate": "Three non negotiables that keep me on track with ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-058",
+    "title": "Curiosity hook 58",
+    "rawTemplate": "Lessons I learned the hard way from ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-059",
+    "title": "Curiosity hook 59",
+    "rawTemplate": "The advice I ignored that changed my ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-060",
+    "title": "Contrarian hook 60",
+    "rawTemplate": "What nobody admits about ___",
+    "category": "Contrarian",
+    "pattern": "unexpected truth",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the market has a stale or incomplete belief"
+  },
+  {
+    "id": "hook-061",
+    "title": "Curiosity hook 61",
+    "rawTemplate": "My daily routine that helps with ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-062",
+    "title": "Curiosity hook 62",
+    "rawTemplate": "The most overlooked skill you need for ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-063",
+    "title": "Mechanism hook 63",
+    "rawTemplate": "Why consistency beats motivation in ___",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-064",
+    "title": "Curiosity hook 64",
+    "rawTemplate": "How I stopped comparing myself in ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-065",
+    "title": "Curiosity hook 65",
+    "rawTemplate": "When ___ finally clicked for me",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-066",
+    "title": "Curiosity hook 66",
+    "rawTemplate": "An unpopular opinion about ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-067",
+    "title": "Curiosity hook 67",
+    "rawTemplate": "The best advice I've heard about ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-068",
+    "title": "Curiosity hook 68",
+    "rawTemplate": "How to enjoy the process of ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-069",
+    "title": "Mechanism hook 69",
+    "rawTemplate": "Why most tips about ___ don't work",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-070",
+    "title": "Curiosity hook 70",
+    "rawTemplate": "What's actually holding you back in ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-071",
+    "title": "Curiosity hook 71",
+    "rawTemplate": "The habit that transformed my ___ progress",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-072",
+    "title": "Curiosity hook 72",
+    "rawTemplate": "How to tell if you're improving at ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-073",
+    "title": "Mechanism hook 73",
+    "rawTemplate": "Why I stopped doing ___ even though it worked",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-074",
+    "title": "Curiosity hook 74",
+    "rawTemplate": "A beginner friendly way to start ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-075",
+    "title": "Curiosity hook 75",
+    "rawTemplate": "Three daily actions that improved my ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-076",
+    "title": "Mistake hook 76",
+    "rawTemplate": "The biggest mistake I made starting ___",
+    "category": "Mistake",
+    "pattern": "mistake reveal",
+    "emotionalTrigger": "fear of wasting effort",
+    "bestUseCase": "When the audience is doing the common thing wrong"
+  },
+  {
+    "id": "hook-077",
+    "title": "Curiosity hook 77",
+    "rawTemplate": "What happens if you do ___ every day for a month",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-078",
+    "title": "Proof hook 78",
+    "rawTemplate": "I tested every method for ___ here's what worked",
+    "category": "Proof",
+    "pattern": "tested-for-you",
+    "emotionalTrigger": "relief",
+    "bestUseCase": "When the ad can borrow credibility from testing or experience"
+  },
+  {
+    "id": "hook-079",
+    "title": "Curiosity hook 79",
+    "rawTemplate": "What people misunderstand about ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-080",
+    "title": "Contrarian hook 80",
+    "rawTemplate": "The secret nobody shares about ___",
+    "category": "Contrarian",
+    "pattern": "unexpected truth",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the market has a stale or incomplete belief"
+  },
+  {
+    "id": "hook-081",
+    "title": "Contrarian hook 81",
+    "rawTemplate": "The truth behind my fast growth in ___",
+    "category": "Contrarian",
+    "pattern": "unexpected truth",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the market has a stale or incomplete belief"
+  },
+  {
+    "id": "hook-082",
+    "title": "Mechanism hook 82",
+    "rawTemplate": "Why you don't need fancy tools for ___",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-083",
+    "title": "Curiosity hook 83",
+    "rawTemplate": "My honest thoughts after months of ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-084",
+    "title": "Curiosity hook 84",
+    "rawTemplate": "I quit ___ for 30 days here's what happened",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-085",
+    "title": "Curiosity hook 85",
+    "rawTemplate": "The most common misconception about ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-086",
+    "title": "Mechanism hook 86",
+    "rawTemplate": "Why starting ___ now is worth it",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-087",
+    "title": "Curiosity hook 87",
+    "rawTemplate": "How to avoid burnout while doing ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-088",
+    "title": "Mechanism hook 88",
+    "rawTemplate": "Why you don't need to be an expert to begin ___",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-089",
+    "title": "Curiosity hook 89",
+    "rawTemplate": "The simple framework I follow for ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-090",
+    "title": "Curiosity hook 90",
+    "rawTemplate": "How I manage my time while doing ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-091",
+    "title": "Curiosity hook 91",
+    "rawTemplate": "This underrated habit boosted my ___ results",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-092",
+    "title": "Curiosity hook 92",
+    "rawTemplate": "I followed popular ___ advice for a week",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-093",
+    "title": "Curiosity hook 93",
+    "rawTemplate": "What finally helped me stay consistent with ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-094",
+    "title": "Curiosity hook 94",
+    "rawTemplate": "Unexpected lessons I learned from ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-095",
+    "title": "Curiosity hook 95",
+    "rawTemplate": "How to build discipline when ___ feels impossible",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-096",
+    "title": "Mechanism hook 96",
+    "rawTemplate": "Why I stopped listening to gurus about ___",
+    "category": "Mechanism",
+    "pattern": "mechanism reveal",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the ad should explain why the offer works"
+  },
+  {
+    "id": "hook-097",
+    "title": "Curiosity hook 97",
+    "rawTemplate": "What I do when motivation drops with ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-098",
+    "title": "Curiosity hook 98",
+    "rawTemplate": "The myth that's holding you back from ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-099",
+    "title": "Curiosity hook 99",
+    "rawTemplate": "What no one tells you about succeeding in ___",
+    "category": "Curiosity",
+    "pattern": "open loop",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the goal is to interrupt scrolling without over-explaining"
+  },
+  {
+    "id": "hook-100",
+    "title": "Contrarian hook 100",
+    "rawTemplate": "I tested all the hacks for ___ here's the truth",
+    "category": "Contrarian",
+    "pattern": "unexpected truth",
+    "emotionalTrigger": "curiosity",
+    "bestUseCase": "When the market has a stale or incomplete belief"
+  }
+]

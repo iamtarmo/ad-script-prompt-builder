@@ -1,0 +1,103 @@
+[
+  {
+    "id": "short-ugc",
+    "name": "Short UGC",
+    "lengthTarget": "30-45 seconds",
+    "outputFormat": "Casual UGC video script plus concise Facebook primary text",
+    "selectedFrameworks": [
+      "hooks-world-class",
+      "concept-creation"
+    ],
+    "requiredSections": [
+      "Pattern interrupt hook",
+      "Problem",
+      "Mechanism",
+      "Proof",
+      "CTA"
+    ]
+  },
+  {
+    "id": "long-vsl-ugc",
+    "name": "Long VSL-style UGC",
+    "lengthTarget": "90-180 seconds",
+    "outputFormat": "UGC-style spoken VSL with direct-response pacing plus longer Facebook copy",
+    "selectedFrameworks": [
+      "hooks-world-class",
+      "concept-creation"
+    ],
+    "requiredSections": [
+      "Hook",
+      "Agitate",
+      "Hidden cause",
+      "Concept",
+      "Proof",
+      "Offer",
+      "CTA"
+    ]
+  },
+  {
+    "id": "quiz-ad",
+    "name": "Quiz ad",
+    "lengthTarget": "35-60 seconds",
+    "outputFormat": "Quiz invitation video script plus curiosity-driven Facebook copy",
+    "selectedFrameworks": [
+      "hooks-world-class",
+      "concept-creation"
+    ],
+    "requiredSections": [
+      "Curiosity hook",
+      "Symptom pattern",
+      "Quiz promise",
+      "Low-friction CTA"
+    ]
+  },
+  {
+    "id": "mechanism-heavy",
+    "name": "Mechanism-heavy",
+    "lengthTarget": "60-90 seconds",
+    "outputFormat": "Mechanism-led script and explanatory ad copy",
+    "selectedFrameworks": [
+      "concept-creation"
+    ],
+    "requiredSections": [
+      "Old belief",
+      "New mechanism",
+      "Why it works",
+      "Proof",
+      "CTA"
+    ]
+  },
+  {
+    "id": "founder-story",
+    "name": "Founder/story ad",
+    "lengthTarget": "60-120 seconds",
+    "outputFormat": "Personal story UGC script plus narrative Facebook copy",
+    "selectedFrameworks": [
+      "hooks-world-class"
+    ],
+    "requiredSections": [
+      "Personal hook",
+      "Discovery",
+      "Mistake or enemy",
+      "Mechanism",
+      "Invitation"
+    ]
+  },
+  {
+    "id": "direct-response",
+    "name": "Direct response Facebook ad",
+    "lengthTarget": "45-75 seconds",
+    "outputFormat": "Tight conversion-focused script plus direct Facebook primary text",
+    "selectedFrameworks": [
+      "hooks-world-class",
+      "concept-creation"
+    ],
+    "requiredSections": [
+      "Hook",
+      "Problem",
+      "Specific payoff",
+      "Proof",
+      "CTA"
+    ]
+  }
+]
