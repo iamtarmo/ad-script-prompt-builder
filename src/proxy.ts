@@ -1,45 +1,33 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const REALM = "Ad Script Prompt Builder";
+const ACCESS_COOKIE = "ad_prompt_builder_access";
 
-function unauthorized(message = "Authentication required") {
-  return new NextResponse(message, {
-    status: 401,
-    headers: {
-      "WWW-Authenticate": `Basic realm="${REALM}", charset="UTF-8"`,
-    },
-  });
+function isPublicPath(pathname: string) {
+  return pathname === "/locked" || pathname === "/unlock";
 }
 
 export function proxy(request: NextRequest) {
-  const password = process.env.PRIVATE_ACCESS_PASSWORD;
+  const accessToken = process.env.ACCESS_TOKEN;
   const isProduction = process.env.NODE_ENV === "production";
+  const { pathname } = request.nextUrl;
 
-  if (!isProduction) {
+  if (!isProduction || isPublicPath(pathname)) {
     return NextResponse.next();
   }
 
-  if (!password) {
-    return unauthorized("PRIVATE_ACCESS_PASSWORD is not configured.");
+  if (!accessToken) {
+    return new NextResponse("ACCESS_TOKEN is not configured.", { status: 500 });
   }
 
-  const header = request.headers.get("authorization");
-  if (!header?.startsWith("Basic ")) {
-    return unauthorized();
+  const cookieToken = request.cookies.get(ACCESS_COOKIE)?.value;
+  if (cookieToken === accessToken) {
+    return NextResponse.next();
   }
 
-  try {
-    const decoded = atob(header.replace("Basic ", ""));
-    const [, submittedPassword] = decoded.split(":");
-
-    if (submittedPassword === password) {
-      return NextResponse.next();
-    }
-  } catch {
-    return unauthorized();
-  }
-
-  return unauthorized("Invalid password");
+  const lockedUrl = request.nextUrl.clone();
+  lockedUrl.pathname = "/locked";
+  lockedUrl.searchParams.set("from", pathname);
+  return NextResponse.redirect(lockedUrl);
 }
 
 export const config = {

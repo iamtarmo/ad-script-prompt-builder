@@ -39,12 +39,18 @@ npm.cmd run build
 
 ## Private access on Vercel
 
-Production deployments use HTTP Basic Auth through `src/proxy.ts`.
+Production deployments use a secret unlock link through `src/proxy.ts` and `src/app/unlock/route.ts`.
 
 Set this Vercel environment variable before exposing the deployment:
 
 ```text
-PRIVATE_ACCESS_PASSWORD=your-password-here
+ACCESS_TOKEN=your-secret-token-here
 ```
 
-When the browser asks for credentials, the username can be anything. The password must match `PRIVATE_ACCESS_PASSWORD`.
+Open the app once with:
+
+```text
+https://your-domain.vercel.app/unlock?token=your-secret-token-here
+```
+
+That sets a secure browser cookie. After that, the normal app URL opens without a Basic Auth prompt, which is easier for browser automation tools.
