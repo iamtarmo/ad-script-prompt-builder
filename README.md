@@ -1,6 +1,6 @@
 # Ad Script Prompt Builder
 
-Private Next.js workspace for building comprehensive LLM prompts for Facebook-style video ads.
+Next.js workspace for building comprehensive LLM prompts for Facebook-style video ads.
 
 The app stores ad wisdom in repo-backed JSON files, lets you fill an offer brief, select hooks/frameworks/swipe logic, and exports a master prompt for an external LLM. It does not call an LLM API in v1.
 
@@ -37,20 +37,8 @@ npm.cmd run typecheck
 npm.cmd run build
 ```
 
-## Private access on Vercel
+## Vercel access
 
-Production deployments use a secret unlock link through `src/proxy.ts` and `src/app/unlock/route.ts`.
+The deployed website has no authentication so browser automation tools can access it.
 
-Set this Vercel environment variable before exposing the deployment:
-
-```text
-ACCESS_TOKEN=your-secret-token-here
-```
-
-Open the app once with:
-
-```text
-https://your-domain.vercel.app/unlock?token=your-secret-token-here
-```
-
-That sets a secure browser cookie. After that, the normal app URL opens without a Basic Auth prompt, which is easier for browser automation tools.
+The repo should stay private, and the app includes `noindex, nofollow` metadata to discourage search indexing. This is not true security; anyone with the deployed URL can open the app.
